@@ -1,0 +1,1 @@
+C:\Users\6003451\OneDrive\ -\ ViewNext\Documentos\GitHub\Curso_Rust\Basico\HolaMundo\HolaCargo\target\debug\HolaCargo.exe: C:\Users\6003451\OneDrive\ -\ ViewNext\Documentos\GitHub\Curso_Rust\Basico\HolaMundo\HolaCargo\src\main.rs

@@ -1,0 +1,9 @@
+[package]
+name = "HolaCargo"
+version = "0.1.0"
+edition = "2024"
+
+# Documentación de Cargo: https://doc.rust-lang.org/stable/cargo/
+
+[dependencies]
+rand = "0.9.1"
