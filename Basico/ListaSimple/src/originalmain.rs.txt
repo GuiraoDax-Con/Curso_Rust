@@ -1,0 +1,131 @@
+use colored::Colorize;
+use std::io::Write;
+use once_cell::sync::Lazy;
+use std::sync::Mutex;
+
+// Graficos
+use frame::egui;
+
+static AGENDA: Lazy<Mutex<Vec<String>>> = Lazy::new(|| Mutex::new(Vec::new()));
+
+fn main() -> Result<(), eframe::Error> {
+    let mut run = true;
+
+    // Usa la crate 'colored' para imprimir en verde
+    println!("{}", "¡BIENVENIDO A LA AGENDA!".green());
+
+    while run {
+        run = menu_principal();
+    }
+}
+
+fn recoger_opcion() -> String {
+    let entrada = std::io::stdin();
+
+    let mut teclado = String::new();
+    entrada
+        .read_line(&mut teclado)
+        .expect("Error al leer la línea");
+
+    return teclado.trim().to_string();
+}
+
+fn menu_principal() -> bool {
+    println!("\n1. Añadir contacto");
+    println!("2. Buscar contacto");
+    println!("3. Eliminar contacto");
+    println!("4. Mostrar contactos");
+    println!("5. Salir");
+    
+    // Aquí podrías implementar la lógica para manejar las opciones del menú
+    print!("Por favor, ingresa una opción: ");
+        std::io::stdout().flush().unwrap();
+    let opcion = recoger_opcion();
+
+    match opcion.parse::<u8>().unwrap_or(0) {
+        1 => {
+            println!("\nAñadiendo contacto...");
+            añadir_contacto();
+        },
+        2 => {
+            println!("\nBuscando contacto...");
+            buscar_contacto();
+        },
+        3 => {
+            println!("\nEliminando contacto...");
+            eliminar_contacto();
+        },
+        4 => {
+            println!("\nMostrando contactos...");
+            mostrar_contactos();
+        },
+        5 => {
+            println!("\n{}", "Saliendo de la agenda...\n".green());
+            return false
+            //std::process::exit(0);
+        },
+        _ => println!("\n{}", "Opción no válida, por favor intenta de nuevo.\n".red()),
+    }
+
+    return true
+}
+
+fn añadir_contacto() {
+    print!("Por favor, ingresa el nombre del contacto: ");
+        std::io::stdout().flush().unwrap();
+    let nombre = recoger_opcion();
+
+    let mut agenda = AGENDA.lock().unwrap();
+    agenda.push(nombre);
+}
+
+fn buscar_contacto() {
+    print!("Por favor, ingresa el nombre del contacto a buscar: ");
+        std::io::stdout().flush().unwrap();
+    let nombre = recoger_opcion();
+
+    let agenda = AGENDA.lock().unwrap();
+    if agenda.contains(&nombre) {
+        println!("Contacto encontrado: {}", nombre.truecolor(0, 255, 0));
+    } else {
+        println!("Contacto no encontrado: {}", nombre.red());
+    }
+}
+
+fn eliminar_contacto() {
+    print!("Por favor, ingresa el nombre del contacto a eliminar: ");
+        std::io::stdout().flush().unwrap();
+    let nombre = recoger_opcion();
+
+    let mut agenda = AGENDA.lock().unwrap();
+    if let Some(pos) = agenda.iter().position(|x| *x == nombre) {
+        agenda.remove(pos);
+        println!("Contacto eliminado: {}", nombre.truecolor(255, 0, 0));
+    } else {
+        println!("Contacto no encontrado: {}", nombre.red());
+    }
+}
+
+fn mostrar_contactos() {
+    let agenda = AGENDA.lock().unwrap();
+    if agenda.is_empty() {
+        println!("No hay contactos en la agenda.");
+    } else {
+/*         print!("Contactos en la agenda:\n[");
+            std::io::stdout().flush().unwrap();
+        for contacto in agenda.iter() {
+            print!("{}", contacto.truecolor(255, 165, 0));
+            if contacto != agenda.last().unwrap() {
+                print!(", ");
+            }
+        }
+        println!("]"); */
+
+        let lista_coloreada: Vec<String> = agenda
+            .iter()
+            .map(|c| c.truecolor(255, 165, 0).to_string())
+            .collect();
+
+        println!("Contactos en la agenda:\n[{}]", lista_coloreada.join(", "));
+    }
+}

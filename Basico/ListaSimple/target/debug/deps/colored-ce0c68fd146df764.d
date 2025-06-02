@@ -1,0 +1,10 @@
+C:\Users\6003451\OneDrive - ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\deps\libcolored-ce0c68fd146df764.rmeta: C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\lib.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\color.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\control.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\error.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\style.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\customcolors.rs
+
+C:\Users\6003451\OneDrive - ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\deps\colored-ce0c68fd146df764.d: C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\lib.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\color.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\control.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\error.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\style.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\customcolors.rs
+
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\lib.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\color.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\control.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\error.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\style.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\colored-3.0.0\src\customcolors.rs:

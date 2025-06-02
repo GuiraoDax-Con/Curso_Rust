@@ -79,3 +79,17 @@ Esto significa que el compilador aplica optimizaciones para que el programa sea 
         let mut random = rand::rng(); // Crea un generador de números aleatorios
         random.random_range(1..=100) // Número entre 1 y 100 (incluye el 100) Puede usarse u8 que comprende 1 a 255.
     ```
+
+- - Poner color al texto de la terminal:
+
+    ```Rust
+        // Importar
+        use colored::Colorize;
+
+        // Comando despues del texto
+        .nombre_color() // Color del texto
+        println!("Hola".green());
+
+        .on_nombre_color() // Color de fondo del texto, como subrallado
+        println!("Hola".on_green());
+    ```

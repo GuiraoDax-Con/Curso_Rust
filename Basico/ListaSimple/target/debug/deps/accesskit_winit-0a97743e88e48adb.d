@@ -1,0 +1,9 @@
+C:\Users\6003451\OneDrive - ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\deps\libaccesskit_winit-0a97743e88e48adb.rmeta: C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\lib.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\platform_impl\mod.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\platform_impl\windows.rs
+
+C:\Users\6003451\OneDrive - ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\deps\libaccesskit_winit-0a97743e88e48adb.rlib: C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\lib.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\platform_impl\mod.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\platform_impl\windows.rs
+
+C:\Users\6003451\OneDrive - ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\deps\accesskit_winit-0a97743e88e48adb.d: C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\lib.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\platform_impl\mod.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\platform_impl\windows.rs
+
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\lib.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\platform_impl\mod.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\accesskit_winit-0.23.1\src\platform_impl\windows.rs:

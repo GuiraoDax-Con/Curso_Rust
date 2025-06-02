@@ -1,0 +1,1 @@
+C:\Users\6003451\OneDrive\ -\ ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\ListaSimple.exe: C:\Users\6003451\OneDrive\ -\ ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\src\main.rs

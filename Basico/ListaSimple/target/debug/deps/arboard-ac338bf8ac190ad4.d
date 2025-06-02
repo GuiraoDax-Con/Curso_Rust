@@ -1,0 +1,10 @@
+C:\Users\6003451\OneDrive - ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\deps\libarboard-ac338bf8ac190ad4.rmeta: C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\lib.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\common.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\platform\mod.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\platform\windows.rs
+
+C:\Users\6003451\OneDrive - ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\deps\libarboard-ac338bf8ac190ad4.rlib: C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\lib.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\common.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\platform\mod.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\platform\windows.rs
+
+C:\Users\6003451\OneDrive - ViewNext\Documentos\GitHub\Curso_Rust\Basico\ListaSimple\target\debug\deps\arboard-ac338bf8ac190ad4.d: C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\lib.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\common.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\platform\mod.rs C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\platform\windows.rs
+
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\lib.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\common.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\platform\mod.rs:
+C:\Users\6003451\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arboard-3.5.0\src\platform\windows.rs:

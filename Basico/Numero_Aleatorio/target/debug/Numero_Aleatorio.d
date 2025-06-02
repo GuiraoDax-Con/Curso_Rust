@@ -1,0 +1,1 @@
+C:\Users\6003451\OneDrive\ -\ ViewNext\Documentos\GitHub\Curso_Rust\Numero_Aleatorio\target\debug\Numero_Aleatorio.exe: C:\Users\6003451\OneDrive\ -\ ViewNext\Documentos\GitHub\Curso_Rust\Numero_Aleatorio\src\main.rs
