@@ -5,6 +5,6 @@ fn main() -> Result<(), eframe::Error> {
     eframe::run_native(
         "Agenda de Contactos",
         opciones,
-        Box::new(|_cc| Box::new(gui::AgendaApp::default())),
+        Box::new(|_cc| Ok(Box::new(gui::AgendaApp::default()))),
     )
 }

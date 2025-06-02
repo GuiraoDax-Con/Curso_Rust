@@ -1,0 +1,24 @@
+# Ignora la carpeta target (archivos compilados de Rust)
+ /target
+*/target
+
+# Archivos de configuración de dependencias
+Cargo.lock
+# Solo ignora Cargo.lock en librerías, no en binarios/proyectos principales
+
+# Archivos de sistema y del editor
+.DS_Store
+Thumbs.db
+
+# Archivos de Visual Studio Code
+.vscode/
+
+# Archivos de Rust/Cargo temporales
+**/*.rs.bk
+
+# Archivos de OneDrive (por tu ruta)
+*.tmp
+~$*
+
+# Archivos de pruebas y logs
+*.log

@@ -14,6 +14,16 @@
         rustc nombre_archivo.rs
     ```
 
+- Pasar referencia de memoria, poner '&' antes del valor o variable:
+
+    ```Rust
+        let num = sumar_numero(&8);
+        
+        fn sumar_numero(num: &i32) -> i32 {
+            *num + 4 // Indica que ocupe el valor de aca
+        }
+    ```
+
 ### Comandos Cargo
 
 - Crear un nuevo proyecto Cargo
